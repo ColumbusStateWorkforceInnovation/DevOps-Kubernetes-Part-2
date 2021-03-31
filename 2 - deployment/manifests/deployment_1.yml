@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: 
+metadata:
+  name: 
+spec:
+  replicas: 
+  revisionHistoryLimit: 
+  selector:
+    matchLabels:
+      app_name: nginx
+      env: dev
+  strategy:
+    type: 
+    rollingUpdate:
+      maxSurge: 
+      maxUnavailable: 
+  template:
+    metadata:
+      labels:
+        app_name: nginx
+        env: dev
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:stable-alpine
+        ports:
+        - containerPort: 80

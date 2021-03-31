@@ -1,0 +1,20 @@
+apiVersion: batch/v1beta1
+kind: 
+metadata:
+  name: cron-app
+spec:
+  schedule: 
+  successfulJobsHistoryLimit: 
+  failedJobsHistoryLimit: 
+  jobTemplate:
+    spec:
+      completions: 8
+      parallelism: 2
+      template:
+        spec:
+          containers:
+          - name: job
+            image: alpine:latest
+            command: ["/bin/sh", "-c"]
+            args: ["echo running job from $HOSTNAME!"]
+          restartPolicy: Never

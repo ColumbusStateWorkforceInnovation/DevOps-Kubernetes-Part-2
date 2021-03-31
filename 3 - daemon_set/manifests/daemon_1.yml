@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: 
+metadata:
+  name: 
+spec:
+  revisionHistoryLimit: 
+  selector:
+    matchLabels:
+      app_name: nginx
+      env: dev
+  template:
+    metadata:
+      labels:
+        app_name: nginx
+        env: dev
+    spec:
+      nodeSelector: 
+        nodeType: 
+      containers:
+      - name: nginx
+        image: nginx:stable-alpine
+        ports:
+        - containerPort: 80
