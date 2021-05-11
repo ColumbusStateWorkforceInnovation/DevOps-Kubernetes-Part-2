@@ -4,6 +4,8 @@
 
 We will be going over some higher level abstractions available to us in Kubernetes. Make sure you have read the slides before going through this so you have a general understanding. 
 
+Examples from class can be found [here](https://github.com/ColumbusStateWorkforceInnovation/infrastructure-kubernetes-week2-examples)
+
 
 ## Objectives
 
