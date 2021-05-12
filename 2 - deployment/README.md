@@ -23,7 +23,7 @@ visit [deployments](https://kubernetes.io/docs/concepts/workloads/controllers/de
 
 1. Add some labels to the pod template to the deployment from Task 2
    - make sure to apply the changes with `--record` using the `apply` command
-2. Write down what labels changes in the `workload_tasks.md` file. 
+2. Write down what labels changes in the `deployment_task.md` file. 
 3. Run the command `kubectl rollout history deployment nginx-deployment` - and notice the revisions
 4. In your worksheet - write down the commands I would use to rollback a deployment to a specific revision.
    -  see [here](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment) for help
