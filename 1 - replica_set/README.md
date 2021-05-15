@@ -27,6 +27,7 @@ Your first task is to create a `ReplicaSet` of the nginx application we made ear
 
 9. What happened? How many pods with our labels are there? Is there an event in the `ReplicaSet` that tells us? Write your findings in the `rs_task.md`
    - hint - `kubectl describe rs <name>` will shows events for the resource   
+   - This question could also be phrased "Do you or do you not see a pod terminated?  Why or why not?"
 10. cleanup using the command `kubectl delete rs nginx-replica`
 
 
