@@ -46,21 +46,28 @@ Within each directory, there is a readme with the exercise. Follow the direction
 
 ## Completing the assignment
 
+1. Create a new private repository from this template.
+1. Add your instructor as a collaborator.
+1. Clone your new private repo to your Columbus State Community College virtual machine.
 
 ### Go through examples
 
-Go through each of the directories provided, and complete the tasks. You will update the manifests and record any questions asked in provided files within each directory.
+Go through each of the directories provided, and complete the tasks. You will update the manifests and record any questions asked in provided files within each directory. We provided the general manifest structures that you will update as described in the directions.
 
-We provided the general manifest structures that you will update as described in the directions.
+Once you are ready to submit:
 
----
+1. Add, commit, and push your changes to GitHub.
+1. Create a pull request.
+1. Request a review from your instructor.
+
 
 ## Submit your work
 
-1- Publish your repository as a private repo, and ensure that you have pushed the latest version
-
-2- Submit the assignment in Blackboard with the link to your repo
-
-
-[pre-lab]: https://github.com/cscc-afarag/kubernetes-week-1/blob/master/ENV_SETUP.md
-
+1. From the command line at the root directory of your project execute the following command: 
+    ```
+    git bundle create firstname-lastname-IA-title-lab-date.bundle --all
+    ```
+    __NOTE:__ firstname and lastname are your first and last names, and date is in the format of mmddyyyy
+    
+1. Submit your lab solution in Blackboard with the link to your Pull Request as well as the bundle
+file you just created.
