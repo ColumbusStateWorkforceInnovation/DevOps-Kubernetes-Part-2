@@ -1,13 +1,11 @@
-## Task 1 - 
+# ReplicaSet Tasks:
 
-### 1 - Enter command for scaling the replica set
-
+## Task 1 - Enter the command you used for scaling the replica set:
 ```
 enter command here
 ```
 
-### 2 - What happened after applying another pod with matching selectors as the ReplicaSet?
-
+## Question 1 - What happened after applying another pod with matching selectors as the ReplicaSet?
 ```
 enter answer here
 ```

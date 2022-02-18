@@ -19,6 +19,7 @@ spec:
       labels:
         app_name: nginx
         env: dev
+        app.kubernetes.io/version: "1.0"
     spec:
       containers:
       - name: nginx

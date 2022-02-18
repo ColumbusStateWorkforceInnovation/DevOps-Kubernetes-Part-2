@@ -1,18 +1,25 @@
-### 1 - What is notice about the output replicaset of your command?
-### *hint* - ``` kubectcl get rs --show-labels```
+# Deployments
+
+## Task 2, step 6: After completing step 5 of task 2, what do you notice about the `ReplicaSet` - what is this used for?
+__hint:__ use ` kubectcl get rs --show-labels`
 
 ```
 enter answer here
 ```
 
-### 2 - What did you notice about the labels of the pods after updating?
-### *hint* - ``` kubectcl get rs --show-labels```
+## Task 2, step 7: what command did you use to scale the deployment?
+
+```
+enter command here
+```
+
+## Task 3, step 2: Why are there two replica sets but only one deployment?
 
 ```
 enter answer here
 ```
 
-### 3 - What is the command for rolling back a deployment to revision 1?
+## Task 3, step 6: What command did you use to roll back the deployment?
 
 ```
 enter command here
