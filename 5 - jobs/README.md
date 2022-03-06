@@ -12,5 +12,5 @@
     * set the kind to be `CronJob`
     * use the following `schedule` : "* * * * *"
     * set `successfulJobsHistoryLimit` to 2 and `failedJobsHistoryLimit` to 1
-5. Apply the CronJob manifest and immediatley run `watch kubectl get pods,cronjobs`. Wait two or three minutes and describe what you observe in the [job_task.md](job_task.md) worksheet.
+5. Apply the CronJob manifest and immediately run `watch kubectl get pods,cronjobs`. Wait two or three minutes and describe what you observe in the [job_task.md](job_task.md) worksheet.
 6. Delete the CronJob and verify it has been deleted.
