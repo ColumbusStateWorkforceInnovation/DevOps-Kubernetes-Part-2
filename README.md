@@ -1,4 +1,4 @@
-# Infrastructure Automation Kubernetes Lab 5
+# Kubernetes Workloads Lab 5
 
 ## Introduction
 
